@@ -1,0 +1,103 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.main{
+	width: 600px;
+	height: 600px;
+	position: relative;
+	margin: 100px auto;
+}
+.main > div {
+	/*width: 200px;
+	height: 200px;*/
+	/*float: left;*/
+	position: absolute;
+}
+.item {
+	width: 200px;
+	height: 200px;
+}
+.m1 {
+	width: 400px;
+	height: 400px;
+	/*background-color: #000;*/
+	top: 0;
+	left: 0;
+}
+.m2 {
+	/*background-color: #333;*/
+	top: 0;
+	left: 400px;
+}
+.m3 {
+	/*background-color: #666;*/
+	top: 200px;
+	left: 400px;
+}
+.m4 {
+	/*background-color: #999;*/
+	top: 400px;
+	left: 0;
+}
+.m5 {
+	/*background-color: #bbb;*/
+	top: 400px;
+	left: 200px;
+}
+.m6 {
+	/*background-color: #ddd;*/
+	top: 400px;
+	left: 400px;
+}
+.main>div>div{
+	width: 90%;
+	height: 90%;
+	padding: 5%;
+	background-size: 100%;
+}
+.m1-1{
+	background-image: url(../images/1.jpg);
+}
+.m2-1{
+	background-image: url(../images/2.jpg);
+}
+.m3-1{
+	background-image: url(../images/3.jpg);
+}
+.m4-1{
+	background-image: url(../images/4.jpg);
+}
+.m5-1{
+	background-image: url(../images/5.jpg);
+}
+.m6-1{
+	background-image: url(../images/6.jpg);
+}
+
+.sizebig {
+	animation:biger 1s linear forwards;
+}
+@keyframes biger {
+	0%{
+		width: 200px;
+		height: 200px;
+	}
+	100%{
+		width: 400px;
+		height: 400px;
+	}
+}
+.sizesamll {
+	animation:samller 1s linear forwards;
+}
+@keyframes samller {
+	0%{
+		width: 400px;
+		height: 400px;
+	}
+	100%{
+		width: 200px;
+		height: 200px;
+	}
+}
